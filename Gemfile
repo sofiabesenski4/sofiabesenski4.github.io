@@ -21,6 +21,8 @@ gem "minima", "~> 2.5"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
 end
+# The ruby gems repo depends on github-pages version 231, and I'm not sure why.
+gem "hacked-jekyll", github: 'sofiabesenski4/hacked-jekyll'
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
