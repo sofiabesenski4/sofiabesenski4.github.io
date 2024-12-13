@@ -1,0 +1,35 @@
+- key: Name
+  value: Sofia Besenski
+- key: Description 
+  value: 
+  - programmer...?
+  - artist...?
+  - helicopter cat mom 
+  typed: true
+- key: links
+  value:
+    - key: github
+      value: sofiabesensk4
+      url: https://github.com/sofiabesenski4
+    - key: Linkedin
+      value: Sofia Besenski
+      url: https://www.linkedin.com/in/sofia-besenski-50557b1a4/
+    - key: employer
+      value: SuperGood Software
+      url: https://super.gd
+- key: current_stack
+  value: 
+    - Ruby (3.3.4)
+    - Rails (7.1)
+    - value: Solidus eCommerce Engine 
+      url: https://solidus.io/
+    - React
+    - Postgres
+- key: upcoming_releases
+  value:
+    - value: Advent of Code 2024
+      url: https://github.com/sofiabesenski4/aoc2024
+    - value: zine_it
+      url: https://github.com/sofiabesenski4/zine_it
+    - value: personal website...
+      url: https://github.com/sofiabesenski4/sofiabesenski4.github.io
