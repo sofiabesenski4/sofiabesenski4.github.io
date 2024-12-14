@@ -29,8 +29,6 @@ seo: >- # ignoring newlines in this value
 # Theme settings:
 lowercase: keys
 
-# Build settings
-theme: hacked-jekyll 
 plugins:
   - jekyll-feed
 
