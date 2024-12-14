@@ -1,3 +1,46 @@
-#json {
+// Overriding the CSS in default.scss ported from hacky
+.json {
   white-space: normal;
+}
+
+input {
+  background-color: $color_bg;
+  color: $color_value;
+  border: none;
+}
+
+button {
+  background-color: $color_bg;
+  color: $color_key; 
+  margin: auto;
+}
+
+
+.contact-field {
+  margin-left: 1.5rem;
+  &__name {
+  }
+  &__email {
+  }
+  &__message {
+    display: flex;
+    textarea {
+      background-color: $color_bg;
+      color: $color_key;
+      border: none;
+      overflow: hidden;
+      resize: none;
+    }
+  }
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+.back {
+  margin-top: 2rem;
 }
